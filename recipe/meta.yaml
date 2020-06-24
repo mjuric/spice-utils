@@ -1,0 +1,32 @@
+{% set name = "spice-utils" %}
+{% set version = "66" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+build:
+  binary_relocation: False
+  number: 0
+
+source:
+  path: ..
+
+about:
+  home: https://naif.jpl.nasa.gov/naif/utilities.html
+  license: JPL-Public-Domain
+  license_family: PUBLICDOMAIN
+  license_file: LICENSE.txt
+  summary: 'NAIF SPICE Utilities'
+
+  description: |
+      SPICE is an ancillary information system that provides scientists and
+      engineers the capability to include space geometry and event data into
+      mission design, science observation planning, and science data analysis
+      software. This package contains additional utility and application
+      programs.
+  doc_url: https://naif.jpl.nasa.gov/naif/utilities.html
+
+extra:
+  recipe-maintainers:
+    - mjuric
