@@ -12,6 +12,10 @@ build:
 source:
   path: ..
 
+requirements:
+  run:
+    - cspice
+
 about:
   home: https://naif.jpl.nasa.gov/naif/utilities.html
   license: JPL-Public-Domain

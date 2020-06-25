@@ -2,11 +2,11 @@
 
 URL_ROOT="https://naif.jpl.nasa.gov/pub/naif/utilities/"
 PROGS=( \
-	archtype bff bingo brief 
-	bspidmod chronos ckbrief ckslicer cksmrg ckspanit commnt
-	dafcat dafmod dlacat dskbrief dskexp frmdiff inspekt makclk maklabel mkdsk mkspk
-	msopck oem2spk optiks orbnum pinpoint prediCkt spacit spk2oem spkdiff
-	spkmerge spy starsb tobin toxfr
+	archtype bff bingo 
+	bspidmod ckslicer cksmrg ckspanit
+	dafcat dafmod dlacat makclk maklabel
+	oem2spk optiks orbnum pinpoint prediCkt spk2oem
+	spy starsb
 	)
 
 # Abort if we forgot to set the prefix (shouldn't ever happen when this script
